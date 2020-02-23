@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/recycle_shape">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="20sp"
+                    android:layout_height="wrap_content"
+                    android:text="Your Email"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/recycle_shape">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="20sp"
+                    android:layout_height="wrap_content"
+                    android:text="Your Name"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/recycle_shape">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="Your Age"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv3"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/recycle_shape">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="College/Organization"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv4"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/recycle_shape">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="Year of Study?"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv5"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/recycle_shape">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="Mobile number"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv6"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/recycle_shape">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="Gender"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv7"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/recycle_shape">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="What's your Area of Expertise?"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv8"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/recycle_shape">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="Technologies you are good at?"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv9"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/recycle_shape">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="Specializations you are working in?"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv10"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/recycle_shape">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="Your LinkedIn Profile"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv11"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/recycle_shape">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="Your Facebook Profile"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv12"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/recycle_shape">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="Your GitHub Profile"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv13"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/recycle_shape">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="Link to your Resume"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv14"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/recycle_shape">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="Why do you want to join VIP Programme, and be a Volunteer?"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv15"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/recycle_shape">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="Share your past experience in which you have worked along side a community?"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv16"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/recycle_shape">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="Anything you'd like to tell us about you?"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv17"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/recycle_shape">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="Name of the person who reffered you for this?"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv18"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
