@@ -198,7 +198,7 @@ public class form_details extends AppCompatActivity {
                 else if(gender == null) {
                     Toast.makeText(getApplicationContext(),"Select gender",Toast.LENGTH_LONG).show();;
                 }
-                else if(mobile.length() != 10){
+                else if(mobile.length() != 14){
                     Toast.makeText(getApplicationContext(),"Enter a 10 digit mobile number.",Toast.LENGTH_LONG).show();
                 }
                 else if (!consentCB.isChecked()){
